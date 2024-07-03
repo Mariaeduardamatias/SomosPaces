@@ -46,22 +46,8 @@ function App() {
                     <p className={style.pack2}>O <span style={{ color: 'rgb(179, 151, 11)', textShadow: 'none', fontWeight: 'bold' }}>O jogo do espelho</span> é essencial para crianças com paralisia cerebral, promovendo autoconsciência e coordenação.</p>
                 </div>
 
-                <div className={style.parte5Exercicio}>
-                    <h3>PRINCIPAIS <span style={{ color: 'rgb(255, 218, 53)' }}>VÍDEOS</span></h3>
-                    <p>Confira os principais vídeos da semana!</p>
-                    <div className={style.botaoContainer}>
-                        <button className={style.botao}>Sementinhas</button>
-                        <button className={style.botao}>Girassol</button>
-                    </div>
-                    <article>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </article>
                 </div>
-            </div>
-
-            <div className={style.splitText} data-text="Split Text">Split Texta</div>
+ 
         </div>
         </>
     );

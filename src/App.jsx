@@ -30,7 +30,7 @@ function App(){
             <Route path='/ExpressionMirror' element={<ExpressionMirror/>}/>
             <Route path='/Girassol' element={<div><Girassol/><FooterPaces/></div>}/>
             <Route path='/Login' element={<Login/>}/>
-            <Route path='/SobreNos' element={<div><SobreNos/><FooterPaces/></div>}/>
+            <Route path='/SobreNos' element={<div><SobreNos/></div>}/>
         </Routes>
      </BrowserRouter>
      <GTranslate/>

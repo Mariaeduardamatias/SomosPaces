@@ -1,11 +1,12 @@
 
 
 .footer_bolha{
+    position: absolute;
     width: 100%;
-    background: url(../assets/footer.svg);
+    background: url(assets/footer.svg);
     background-size: cover;
     height: 500px;
-    margin: 0;
+    bottom: 0;
 }
 .footer_logo{
     width: 300px;
@@ -188,11 +189,12 @@
 
 @media screen and (max-width: 600px) and (min-width: 0px) {
     .footer_bolha{
+        position: absolute;
         width: 100%;
-        background: url(../assets/footer.svg);
+        background: url(assets/footer.svg);
         background-size: cover;
-        height: 500px;
-        margin: 0;
+        background-position-x: center;
+        bottom: 0;
     }
     
     

@@ -4,6 +4,8 @@ import desenvolva from '../assets/desenvolva.svg';
 import gaby2 from '../assets/gaby2.png';
 import Header from './Header';
 import thumbnail from '../assets/thumbnail.jpg'
+import CapaVideo from '../assets/CapaVideos.png'
+
 import mundoGira from '../assets/mundoGirassol.jpg'
 import { Link } from 'react-router-dom';
 
@@ -47,22 +49,8 @@ function App() {
                     <p className={style.pack2}>O <span style={{ color: 'rgb(179, 151, 11)', textShadow: 'none', fontWeight: 'bold' }}>Mundo Girassol</span> é dedicado aos pais que buscam qualquer tipo de apoio.</p>
                 </div>
 
-                <div className={style.parte5Selecao}>
-                    <h3>PRINCIPAIS <span style={{ color: 'rgb(255, 218, 53)' }}>VÍDEOS</span></h3>
-                    <p>Confira os principais vídeos da semana!</p>
-                    <div className={style.botaoContainer}>
-                        <button className={style.botao}>Sementinhas</button>
-                        <button className={style.botao}>Girassol</button>
-                    </div>
-                    <article>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </article>
-                </div>
             </div>
 
-            <div className={style.splitText} data-text="Split Text">Split Texta</div>
         </div>
         </>
     );

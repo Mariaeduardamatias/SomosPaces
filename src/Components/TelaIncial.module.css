@@ -307,6 +307,15 @@ body {
     text-shadow: rgba(0, 0, 0, 0.234) 0px 3px 3px;
 }
 
+.parte5 article video{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.parte5 article div{
+    width: 300px;
+    height: auto;
+}
 
 .botaoContainer {
     display: flex;
@@ -828,6 +837,7 @@ nav {
     }
 
 }
+
 
 
 /* ------------ Fim Tablet ------------*/

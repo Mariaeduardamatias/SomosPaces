@@ -71,9 +71,9 @@ function Header() {
                             <Link to={'/Profissionais'}>
                                 <li>Profissionais</li>
                             </Link>
-                            <Link to={'/Comunidade'}>
+                        
                                 <li>Comunidade</li>
-                            </Link>
+                            
                             <Link to={'/SobreNos'}>
                                 <li>Sobre</li>
                             </Link>

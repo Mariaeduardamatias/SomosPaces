@@ -12,6 +12,7 @@ import seguro from '../assets/seguro.png';
 import Memoria from '../assets/JogoMemoria.svg'
 import thumbnail from '../assets/thumbnail.jpg'
 import mundoGira from '../assets/mundoGirassol.jpg'
+import CapaVideo from '../assets/CapaVideos.png'
 import Espelho from '../assets/Espelho.svg'
 import Header from './Header';
 import { Link } from 'react-router-dom';
@@ -87,9 +88,22 @@ function TelaIncial() {
                         <button className={style.botao}>Girassol</button>
                     </div>
                     <article>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div className={style.video1}>
+                        <video controls poster={CapaVideo}>    
+                        <source type='video/mp4' src={'https://paces-videos.s3.amazonaws.com/fisioterapia/videoLuana.mp4'}/>   
+                         </video>
+                        </div>
+                        <div className={style.video1}>
+                        <video controls  poster={CapaVideo}>    
+                        <source type='video/mp4' src={'https://paces-videos.s3.amazonaws.com/educadores/videoGisele.mp4'}/>   
+                         </video>
+                        </div>
+                        <div className={style.video1}>
+                        <video controls  poster={CapaVideo}>    
+                        <source type='video/mp4' src={'https://paces-videos.s3.amazonaws.com/educadores/Rafael.mp4'}/>   
+                         </video>
+                        </div>
+                        
                     </article>
                 </div>
             </div>
